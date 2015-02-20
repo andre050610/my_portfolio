@@ -1,0 +1,1064 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+html {
+	background-image: url("../images/dj_background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+}
+
+/**************************The Style For the Code Boxes and The Scroll Bar***************************************/
+pre{
+ 	width: 600px;
+ 	height: 500px;
+ 	overflow: auto;
+ 	overflow-x: scroll;
+ 	overflow-y: scroll;
+ }
+
+pre::-webkit-scrollbar {
+	height: 10px;
+	width: 10px;
+}  
+
+pre::-webkit-scrollbar-track {
+	background-color: #000000;  
+    border: 1px solid #1A1A14;
+}
+
+pre::-webkit-scrollbar-thumb {  
+    background-color: #000000;  
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}  
+
+pre::-webkit-scrollbar-thumb:hover {  
+    background-color: #000000;  
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+} 
+
+/*---------------------The Contact Triangle on Upper Left----------------------*/
+
+div#contact_tri {
+	height: 0px;
+	width: 0px;
+	top: 0px;
+	left: 0px;
+	text-align: right;
+	position: absolute;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid transparent;
+	border-left: 100px solid #00A3CC;
+	color: transparent;
+	z-index: 1;
+	cursor: pointer; 
+}
+
+div#hover_point {
+	height: 200px;
+	width: 100px;
+	top: -70px;
+	left: -50px;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer; 
+	cursor: hand;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/*----------------------Contact Info on Upper Left------------------------------*/
+
+div#contact_form {
+	height: 120px;
+	width: 235px;
+	margin-top: -30px;
+	margin-left: -600px;
+	text-align: right;
+	font-family: "Comic Sans";
+	font-size: .9em;
+	position: absolute;
+}
+
+span.contact {
+	background-color: #00627A;
+	padding-right: 5px;	
+}
+
+input.contact {
+	background-color: transparent;
+	height: 14px;
+	font-family: "Comic Sans";
+	font-size: .9em;
+	border: 0px solid transparent;
+	color: white;
+	padding-left: 5px;
+}
+
+form {
+	margin-left: 236px;
+	margin-top: -69px;
+}
+
+div#close_form {
+	width: 13px;
+	height: 16px;
+	background-color: #00627A;
+	position: absolute;
+	margin-left: 235px;
+	margin-top: -100px;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+/*---------------------My Name on Top of Page----------------------------------*/
+
+img#my_name {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 650px;
+}
+
+
+/*---------------------The Whole Image on Upper Top----------------------------*/
+
+div#upper_right_div{
+	height: 99%;
+	width: 250px;
+	position: fixed;
+	top: 0;
+	right: 1.8%;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+/*---------------------Menu Image on Upper Top---------------------------------*/
+
+div.menu_div {
+	height: 20.8px;
+	width: 150px;
+	position: absolute;
+	color: white;
+	font-family: "Comic Sans";
+	font-size: 1.1em;
+	text-align: right;
+	z-index: 3;
+}
+
+div div#first {
+	background-color: #001429;
+	margin-top: 0px;
+}
+
+div div#second {
+	background-color: #001F3D;
+	margin-top: 20.8px;
+}
+
+div div#third {
+	background-color: #002952;
+	margin-top: 41.6px;
+}
+
+div div#fourth {
+	background-color: #003366;
+	margin-top: 62.4px;
+}
+div div#fifth {
+	background-color: #335C85;
+	margin-top: 83.36px;
+}
+
+div div#sixth {
+	background-color: #6685A3;
+	margin-top: 104.16px;
+}
+
+/*----------------------Menu Image Animate on Upper Top---------------------*/
+
+div div.menu_animate_div {
+	height: 20.8px;
+	width: 0px;
+	position: absolute;
+	margin-left: 150px;
+	background-color: #00B8E6;
+	z-index: 1;
+}
+
+span.menu {
+	height: 20.8;
+	width: 150px;
+	left: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+/*----------------------Curved Image on Upper Top----------------------------*/
+
+div.curved_div {
+	height: 125px;
+	width: 125px;
+	position: absolute;
+	margin-left: 150px;
+	z-index: 3;
+}
+
+div div#back_curved {
+	background-color: #00A3CC;
+	z-index: 1;
+}
+
+div div#first_curved {
+	background-color: #001429;
+	border-radius: 0 125px 0 0;
+	width: 125px;
+	height: 125px;
+	z-index: 1;
+}
+
+div div#second_curved {
+	background-color: #001F3D;
+	border-radius: 0 104.16px 0 0;
+	width: 104.16px;
+	height: 104.16px;
+	margin-top: 20.96px;
+	z-index: 2;
+}
+
+div div#third_curved {
+	background-color: #002952;
+	border-radius: 0 83.36px 0 0;
+	width: 83.36px;
+	height: 83.36px;
+	margin-top: 41.76px;
+	z-index: 3;
+}
+
+div div#fourth_curved {
+	background-color: #003366;
+	border-radius: 0 62.4px 0 0;
+	width: 62.4px;
+	height: 62.4px;
+	margin-top: 62.4px;
+	z-index: 4;
+}
+
+div div#fifth_curved {
+	background-color: #335C85;
+	border-radius: 0 41.6px 0 0;
+	width: 41.6px;
+	height: 41.6px;
+	margin-top: 83.36px;
+	z-index: 5;
+}
+
+div div#sixth_curved {
+	background-color: #6685A3;
+	border-radius: 0 20.8px 0 0;
+	width: 20.8px;
+	height: 20.8px;
+	margin-top: 104.16px;
+	z-index: 6;
+}
+
+/*-----------------Curved Image Animate on Upper Top---------------------*/
+
+div.curved_animate_div {
+	height: 125px;
+	width: 125px;
+	position: absolute;
+	background-color: #00B8E6;
+}
+
+div div#first_curved_animate {
+	border-radius: 0 125px 0 0;
+	width: 0px;
+	height: 0px;
+	z-index: 1;
+}
+
+div div#second_curved_animate {
+	border-radius: 0 125px 0 0;
+	width: 0px;
+	height: 0px;
+	z-index: 2;
+}
+
+div div#third_curved_animate {
+	border-radius: 0 125px 0 0;
+	width: 0px;
+	height: 0px;
+	z-index: 3;
+}
+
+div div#fourth_curved_animate {
+	border-radius: 0 125px 0 0;
+	width: 0px;
+	height: 0px;
+	z-index: 4;
+}
+
+div div#fifth_curved_animate {
+	border-radius: 0 125px 0 0;
+	width: 0px;
+	height: 0px;
+	z-index: 5;
+}
+
+div div#sixth_curved_animate {
+	border-radius: 0 125px 0 0;
+	width: 0px;
+	height: 0px;
+	z-index: 6;
+}
+
+/*------------------Triangle Static on Upper Top-------------------------*/
+
+div.curved_triangleR_div {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #00B8E6;
+}
+
+div.curved_triangleD_div {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid #00B8E6;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	visibility: hidden;
+	z-index: 4;	
+}
+
+/*-------------------Vertical Image on Upper Top-------------------------*/
+
+div.vertical_div {
+	height: 27px;
+	width: 20.8px;
+	position: absolute;
+	margin-top: 125px;
+	z-index: 3;
+}
+
+div div#first_vertical {
+	background-color: #001429;
+	margin-left: 254px;
+}
+
+div div#second_vertical {
+	background-color: #001F3D;
+	margin-left: 233.3px;
+}
+
+div div#third_vertical {
+	background-color: #002952;
+	margin-left: 212.4px;
+}
+
+div div#fourth_vertical {
+	background-color: #003366;
+	margin-left: 191.6px;
+}
+
+div div#fifth_vertical {
+	background-color: #335C85;
+	margin-left: 170.8px;
+}
+
+div div#sixth_vertical {
+	background-color: #6685A3;
+	margin-left: 150px;
+}
+
+/*-------------------Vertical Animation Image on Upper Top-------------------------*/
+
+div div.vertical_animate_div {
+	height: 0px;
+	width: 20.8px;
+	position: absolute;
+	margin-top: 0px;
+	background-color: #00B8E6;
+	z-index: 4;
+}
+
+/*-------------------Image Buttons on Upper and Bottom Left------------------------*/
+
+div div.button {
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	z-index: 7;
+}
+
+div div.hover_button {
+	height: 20px;
+	width: 148px;
+}
+
+div div#button_top {
+	border-top: 27px solid #00A3CC;
+	border-right: 75px solid #002952;
+	border-left: 75px solid #002952;
+	margin-top: 125px;
+}
+
+div div#hover_button_top {
+	margin-top: -20px;
+	margin-left: -76px;
+}
+
+div div#button_bottom {
+	border-bottom: 25px solid #00A3CC;
+	border-right: 75px solid #002952;
+	border-left: 75px solid #002952;
+	margin-top: 619px;
+	margin-bottom: 0px
+}
+
+div div#hover_button_bottom {
+	margin-top: -2px;
+	margin-left: -76px;
+}
+
+/*---------------------Images Div on Upper and Bottom Right---------------------------------*/
+
+div div#all_images {
+	width: 271px;
+	position: absolute;
+	margin-top: 152px;
+}
+
+div div.box_div {
+	height: 80px;
+	width: 273px;
+	margin-top: -2px;
+}
+
+/*---------------------Images Display Div on Upper and Bottom Right---------------------------------*/ 
+div div.image_div {
+	height: 78px;
+	width: 150px;
+	float: left;
+}
+
+div div#image_1 {
+	background-image: url("../images/resume.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_2 {
+	background-image: url("../images/tic_tac_toe.png");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_3 {
+	background-image: url("../images/html_css.png");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_4 {
+	background-image: url("../images/bar.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_5 {
+	background-image: url("../images/c_plus_plus.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_6 {
+	background-image: url("../images/python.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_7 {
+	background-image: url("../images/java.png");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_8 {
+	background-image: url("../images/javascript.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_9 {
+	background-image: url("../images/java.png");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+div div#image_10 {
+	background-image: url("../images/php.jpg");
+	background-repeat: no-repeat;
+	background-size: 150px 78px;
+}
+
+/*************************Hover Over Image To Change To Transparent Blue********************************/
+
+div div#image_1:hover {
+	opacity: .6;
+}
+
+div div#image_2:hover {
+	opacity: .6;
+}
+
+div div#image_3:hover {
+	opacity: .6;
+}
+
+div div#image_4:hover {
+	opacity: .6;
+}
+
+div div#image_5:hover {
+	opacity: .6;
+}
+
+div div#image_6:hover {
+	opacity: .6;
+}
+
+div div#image_7:hover {
+	opacity: .6;
+}
+
+div div#image_8:hover {
+	opacity: .6;
+}
+
+div div#image_9:hover {
+	opacity: .6;
+}
+
+div div#image_10:hover {
+	opacity: .6;
+}
+
+/*************************Vertical Layout on Upper and Bottom Right************************************/
+
+div div.vertical_layout_div {
+	height: 78px;
+	width: 123px;
+	float: right;
+}
+
+div div.single_layout_div {
+	height: 78px;
+	width: 20.8px;
+	float: left;
+}
+
+div div#layout_1 {
+	background-color: #6685A3;
+}
+
+div div#layout_2 {
+	background-color: #335C85;
+}
+div div#layout_3 {
+	background-color: #003366;
+}
+div div#layout_4 {
+	background-color: #002952;
+}
+div div#layout_5 {
+	background-color: #001F3D;
+}
+div div#layout_6 {
+	background-color: #001429;
+	width: 19px;
+}
+
+/***********************************Transparent Vertical Layout on Upper and Bottom Right****************************/
+
+div div#layout_1_transparent {
+	background-color: transparent;
+}
+
+div div#layout_2_transparent {
+	background-color: transparent;
+}
+div div#layout_3_transparent {
+	background-color: transparent;
+}
+div div#layout_4_transparent {
+	background-color: transparent;
+}
+div div#layout_5_transparent {
+	background-color: transparent;
+}
+div div#layout_6_transparent {
+	background-color: transparent;
+	width: 19px;
+}
+
+/***********************************Border Latout and Transparency Upper and Bottom Right*****************************/
+
+div div#border_layout_1 {
+	height: 74px;
+	width: 16.8px;
+	border: 2px solid #6685A3;
+	background-color: transparent;
+}
+
+div div#border_layout_2 {
+	height: 74px;
+	width: 16.8px;
+	border: 2px solid #335C85;
+	background-color: transparent;
+}
+
+div div#border_layout_3 {
+	height: 74px;
+	width: 16.8px;
+	border: 2px solid #003366;
+	background-color: transparent;
+}
+
+div div#border_layout_4 {
+	height: 74px;
+	width: 16.8px;
+	border: 2px solid #002952;
+	background-color: transparent;
+}
+
+div div#border_layout_5 {
+	height: 74px;
+	width: 16.8px;
+	border: 2px solid #001F3D;
+	background-color: transparent;
+}
+
+div div#border_layout_6 {
+	height: 74px;
+	width: 16.8px;
+	border: 2px solid #001429;
+	background-color: transparent;
+}
+
+/****************************Information Box on Middle Left********************************************/
+
+div div.info_div {
+	height: 300px;
+	width: 600px;
+	position: absolute;
+	margin-left: -330px;
+	margin-top: 228px;
+	z-index: -1;
+}
+
+div div.info_box {
+	height: 0px;
+	width: 600px;
+	position: absolute;
+}
+
+div div#close_info_div {
+	height: 40px;
+	width: 40px;
+	color: white;
+	font-size: 2em;
+	background-color: #00627A;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 528px;	
+	z-index: 5;
+}
+
+div.info_div div#box_1 {
+	background-image: url("../images/resume_type.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_2 {
+	background-image: url("../images/tic_tac_toe_web.png");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_3 {
+	background-image: url("../images/school.png");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_4 {
+	background-image: url("../images/final_project.png");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_5 {
+	background-image: url("../images/flight.png");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_6 {
+	background-image: url("../images/python.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_7 {
+	background-image: url("../images/jquery.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_8 {
+	background-image: url("../images/javascript.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_9 {
+	background-image: url("../images/java.png");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+div.info_div div#box_10 {
+	background-image: url("../images/php.jpg");
+	background-repeat: no-repeat;
+	background-size: 600px 300px;
+}
+
+
+/****************************FaceBook Links And Like Button******************************************/
+
+div#facebook {
+	background-image: url(../images/facebook.png);
+	background-size: 40px 40px;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+
+div#facebook:hover {
+	opacity: .6;
+}
+
+/**************************Resume Button For the Resume Image*******************************************/
+div#resume_btn {
+	height: 60px;
+	width: 450px;
+	border-radius: 25px;
+	opacity: .4;
+	background-color: transparent;
+	margin-left: -270px;
+	margin-top: 260px;
+	visibility: hidden;
+	position: absolute;
+	z-index: 6;
+}
+
+div#resume_btn:hover {
+	background-color: #FFFFFF;
+}
+
+div#resume_info {
+	height: 500px;
+	width: 500px;
+	margin-left: -600px;
+	margin-top: -140px;
+	visibility: hidden;
+}
+
+/***********************Tic Tac Toe Button For the Web Link**********************************************/
+a div#tic_tac_toe_btn {
+	height: 60px;
+	width: 520px;
+	border-radius: 25px;
+	opacity: .4;
+	background-color: transparent;
+	margin-left: -290px;
+	margin-top: 235px;
+	visibility: hidden;
+	position: absolute;
+	z-index: 6;
+}
+
+a div#tic_tac_toe_btn:hover {
+	background-color: #754719;
+}
+
+/*************************School Button For the Web Link****************************************************/
+a div#school_btn {
+	height: 60px;
+	width: 140px;
+	border-radius: 25px;
+	opacity: .4;
+	background-color: transparent;
+	margin-left: -100px;
+	margin-top: 380px;
+	visibility: hidden;
+	position: absolute;
+	z-index: 6;
+}
+
+a div#school_btn:hover {
+	background-color: white;
+}
+
+/*************************Final Project For the Web Link*******************************************************/
+a div#final_project_btn {
+	height: 40px;
+	width: 250px;
+	border-radius: 25px;
+	opacity: .4;
+	background-color: transparent;
+	margin-left: -120px;
+	margin-top: 240px;
+	visibility: hidden;
+	position: absolute;
+	z-index: 6;
+}
+
+a div#final_project_btn:hover {
+	background-color: yellow;
+}
+
+/*************************Next and Previous Button For the Codes Images******************************************/
+div#next_btn {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	z-index: 7;
+	opacity: .6;
+	margin-top: 228px;
+	margin-left: -30px;
+	visibility: hidden;
+}
+
+div#previous_btn {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	z-index: 7;
+	opacity: .6;
+	margin-top: 228px;
+	margin-left: -330px;
+	visibility: hidden;
+}
+
+div#next_btn:hover {
+	background-image: url('../images/next_btn.png');
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+}
+
+div#previous_btn:hover {
+	background-image: url('../images/previous_btn.png');
+	background-repeat: no-repeat;
+	background-size: 300px 300px;
+}
+
+
+/************************Programs Images and Links To Codes*********************************************************/
+div ul.program_info {
+	height: 40px;
+	width: 330px;
+	padding: 0px;
+	margin-top: -40px;
+	text-align: center;
+	visibility: hidden;
+}
+
+ul li.program_list {
+	padding: .2em 1em;
+	list-style-type: none;
+	display: inline;
+	background-color: transparent;
+}
+
+li.program_list a {
+	font-family: "Comic Sans";
+	font-size: .9em;
+	color: white;
+	text-decoration: none;
+}
+
+ul li.program_list:hover {
+	opacity: .4;
+	background-color: blue;
+}
+
+/***********************Airline Code On Prettify Lines C++***************************************************/
+div div#airline_code {
+	margin-left: -604px;
+	margin-top: -120px;
+	visibility: hidden;
+}
+
+pre#main_cpp {
+	visibility: hidden;
+}
+
+pre#seat_cpp {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+pre#airlineSystem_cpp {
+	margin-top: -517px;
+	visibility: hidden; 
+}
+
+pre#reservation_cpp {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+/********************Bank Code On Prettify Lines C++********************************************************/
+div div#bank_code {
+	margin-left: -604px;
+	margin-top: -520px;
+	visibility: hidden;
+}
+
+div ul#bank {
+	margin-top: -56px;
+}
+
+pre#main_bank_cpp {
+	visibility: hidden;
+}
+
+pre#menu_cpp {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+pre#account_cpp {
+	margin-top: -517px;
+	visibility: hidden; 
+}
+
+pre#transaction_cpp {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+/************************Car Code On Prettify Lines C++*********************************************************/
+div div#car_code {
+	margin-left: -604px;
+	margin-top: -520px;
+	visibility: hidden;
+}
+
+div ul#car {
+	margin-top: -56px;
+}
+
+pre#main_car_cpp {
+	visibility: hidden;
+}
+
+pre#car_cpp {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+pre#parking_lot_cpp {
+	margin-top: -517px;
+	visibility: hidden; 
+}
+
+pre#patrol_cpp {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+/***************************Pong Code On Prettify Lines C++*************************************************/
+div div#pong_code {
+	margin-left: -604px;
+	margin-top: -520px;
+	visibility: hidden;
+}
+
+div ul#pong {
+	margin-top: -56px;
+}
+
+pre#main_pong_cpp {
+	visibility: hidden;
+}
+
+/****************************Games Code On Prettify Lines Python************************************************/
+div div#games_code {
+	margin-left: -604px;
+	margin-top: -120px;
+	visibility: hidden;
+}
+
+div div#python {
+	visibility: hidden;
+}
+
+div ul#games {
+	margin-top: -40px;
+}
+
+pre#main_games_py {
+	visibility: hidden;
+}
+
+/****************************Retail Code On Lines Java***********************************************************/
+
+div div#retail_code {
+	margin-left: -604px;
+	margin-top: -120px;
+	visibility: hidden;
+}
+
+div div#java {
+	visibility: hidden;
+}
+
+div ul#retail {
+	margin-top: -40px;
+}
+
+pre#main_retail_java {
+	visibility: hidden;
+}
+
+pre#appliance_java {
+	margin-top: -517px;
+	visibility: hidden;
+}
+
+pre#gold_java {
+	margin-top: -517px;
+	visibility: hidden; 
+}
+
+pre#standard_java {
+	margin-top: -517px;
+	visibility: hidden;
+}
