@@ -405,7 +405,7 @@ div div.button {
 }
 
 div div.hover_button {
-	height: 20px;
+	height: 25px;
 	width: 148px;
 }
 
@@ -417,20 +417,20 @@ div div#button_top {
 }
 
 div div#hover_button_top {
-	margin-top: -20px;
+	margin-top: -28px;
 	margin-left: -76px;
 }
 
 div div#button_bottom {
-	border-bottom: 25px solid #00A3CC;
+	border-bottom: 27px solid #00A3CC;
 	border-right: 75px solid #002952;
 	border-left: 75px solid #002952;
 	margin-top: 619px;
-	margin-bottom: 0px
+	bottom: -8px;
 }
 
 div div#hover_button_bottom {
-	margin-top: -2px;
+	margin-top: 0px;
 	margin-left: -76px;
 }
 
@@ -513,6 +513,10 @@ div div#image_10 {
 	background-image: url("../images/php.jpg");
 	background-repeat: no-repeat;
 	background-size: 150px 78px;
+}
+
+div div#image_11 {
+	background-color: #002952;
 }
 
 /*************************Hover Over Image To Change To Transparent Blue********************************/

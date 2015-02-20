@@ -100,9 +100,9 @@ $(document).ready(function(){
 	});
 
 	$('div').children('#hover_button_bottom').hover(function(){	//-----------Hover on Down Button to Change Color---------------------- 
-		$(this).parent().css({borderBottom: "25px solid #002952",borderRight: "75px solid #00A3CC",borderLeft: "75px solid #00A3CC"});
+		$(this).parent().css({borderBottom: "27px solid #002952",borderRight: "75px solid #00A3CC",borderLeft: "75px solid #00A3CC"});
 	}, function(){
-		$(this).parent().css({borderBottom: "25px solid #00A3CC",borderRight: "75px solid #002952",borderLeft: "75px solid #002952"});
+		$(this).parent().css({borderBottom: "27px solid #00A3CC",borderRight: "75px solid #002952",borderLeft: "75px solid #002952"});
 	});
 
 		// Variable for the top position of boxe
