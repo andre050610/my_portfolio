@@ -502,10 +502,10 @@
 				<div class="info_box" id="box_10"></div>
 			</div>
 			<!--*******************************BUTTONS For the Images Info******************-->
-			<div id="resume_btn"></div>
-			<a href="http://www.aguirrejonathan.info/school_work/tic_tac_toe/index.html"><div id="tic_tac_toe_btn"></div></a>
-			<a href="http://www.aguirrejonathan.info/school_work/index.html"><div id="school_btn"></div></a>
-			<a href="http://www.aguirrejonathan.info/school_work/final/index.html"><div id="final_project_btn"></div></a>
+			<div id="resume_btn">ONLINE RESUME</div>
+			<a href="http://www.aguirrejonathan.info/school_work/tic_tac_toe/index.html"><div id="tic_tac_toe_btn">ONLINE TIC-TAC-TOE</div></a>
+			<a href="http://www.aguirrejonathan.info/school_work/index.html"><div id="school_btn">ONLINE SCHOOL WORK</div></a>
+			<a href="http://www.aguirrejonathan.info/school_work/final/index.html"><div id="final_project_btn">ONLINE BLUE IGUANA</div></a>
 			<div id="next_btn"></div>
 			<div id="previous_btn"></div>
 			<div id="close_info_div">&nbsp;X</div>

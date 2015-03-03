@@ -77,7 +77,7 @@ $(document).ready(function(){
 	$('td').children('#close_form').hover(function(){		//---------Hover Over Close Button to Animate Close Box Upper Left--------------- 
 		$(this).finish().animate({backgroundColor: "#99C0CA"}, 500);
 		}, function(){
-			$(this).finish().animate({backgroundColor: "#00627A"}, 300);
+			$(this).finish().animate({backgroundColor: "#6685A3"}, 300);
 	});
 
 	$('td').children('#close_form').click(function(){		//--------Click on Close Box to Animate Close Contact Form Upper Left------------
@@ -319,7 +319,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$('div').children('#next_btn').click(function(){
+	$('div').children('#next_btn').click(function(){	/*****************Click on the Next Button to Advance to the Next Page in Image Info******/
 		if (box_id == "box_5"){
 			$('#airline_code').children('pre').css({visibility: "hidden"});
 			$('#bank_code').children('pre').css({visibility: "hidden"});
@@ -337,7 +337,7 @@ $(document).ready(function(){
 		}
 	});
 
-	$('div').children('#previous_btn').click(function(){
+	$('div').children('#previous_btn').click(function(){	/*****************Click on the Previous Button to Advance to the Next Page in Image Info******/
 		if (box_id == "box_5"){
 			$('div').children('#next_btn').css({visibility: "visible"});
 			$('#airline_code').children('pre').css({visibility: "hidden"});
@@ -354,6 +354,47 @@ $(document).ready(function(){
 		}
 	});
 
+		// Variable for the Top Margin of Main Layer of Info Section
+	top_position_menu = ($('div').children('#box_1').position().top);
+
+	$('div').children('#second').click(function(){	/***************************Click on the Second Menu to Organize Info************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu}, 500);
+		top_position = ($('div').children('#box_1').position().top);
+	});
+
+	$('div').children('#second_curved').click(function(){	/***************************Click on the Second Menu to Organize Info************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu}, 500);
+		top_position = ($('div').children('#box_1').position().top);
+	});
+
+	$('div').children('#third').click(function(){	/***************************Click on the Third Menu to Organize Info************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu - (78)*1}, 500);
+		top_position = ($('div').children('#box_1').position().top) - (78)*1;
+	});
+
+	$('div').children('#third_curved').click(function(){	/***************************Click on the Third Menu to Organize Info************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu - (78)*1}, 500);
+		top_position = ($('div').children('#box_1').position().top) - (78)*1;
+	});
+
+	$('div').children('#fourth').click(function(){	/***************************Click on the Fourth Menu to Organize Info************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu - (78)*4}, 500);
+		top_position = ($('div').children('#box_1').position().top) - (78)*4;
+	});
+
+	$('div').children('#fourth_curved').click(function(){	/***************************Click on the Fourth Menu to Organize Info************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu - (78)*4}, 500);
+		top_position = ($('div').children('#box_1').position().top) - (78)*4;
+	});
+
+	$('div').children('#fifth').click(function(){	/************************Click on The Fifth Menu Option to Organize Info******************/
+		$('div').children('#box_1').animate({marginTop: top_position_menu - (78)*4}, 500, function(){
+			$('div').children('#box_8').stop().animate({marginLeft: "-50px"}, 500);
+			$('div').children('#box_8').animate({marginLeft: "0px"}, 500);	
+		});
+		top_position = ($('div').children('#box_1').position().top) - (78)*4;
+
+	});
 
 //-----------------------End of Document Ready---------------------------------------------------------------
 });

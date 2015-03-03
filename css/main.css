@@ -93,7 +93,7 @@ div#contact_form {
 }
 
 span.contact {
-	background-color: #00627A;
+	background-color: #6685A3;
 	padding-right: 5px;	
 }
 
@@ -102,7 +102,8 @@ input.contact {
 	height: 14px;
 	font-family: "Comic Sans";
 	font-size: .9em;
-	border: 0px solid transparent;
+	border: 1px solid white;
+	border-left: 0px solid transparent;
 	color: white;
 	padding-left: 5px;
 }
@@ -115,7 +116,7 @@ form {
 div#close_form {
 	width: 13px;
 	height: 16px;
-	background-color: #00627A;
+	background-color: #6685A3;
 	position: absolute;
 	margin-left: 235px;
 	margin-top: -100px;
@@ -498,7 +499,7 @@ div div#image_7 {
 }
 
 div div#image_8 {
-	background-image: url("../images/javascript.jpg");
+	background-image: url("../images/unity.jpg");
 	background-repeat: no-repeat;
 	background-size: 150px 78px;
 }
@@ -735,7 +736,7 @@ div.info_div div#box_7 {
 }
 
 div.info_div div#box_8 {
-	background-image: url("../images/javascript.jpg");
+	background-image: url("../images/wizard.png");
 	background-repeat: no-repeat;
 	background-size: 600px 300px;
 }
@@ -769,15 +770,19 @@ div#facebook:hover {
 
 /**************************Resume Button For the Resume Image*******************************************/
 div#resume_btn {
-	height: 60px;
-	width: 450px;
-	border-radius: 25px;
-	opacity: .4;
-	background-color: transparent;
-	margin-left: -270px;
-	margin-top: 260px;
+	height: 40px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: .8;
+	background-color: #6685A3;
+	margin-left: -320px;
+	margin-top: 178px;
+	font-family: "Comic Sans";
+	font-size: 1.5em;
+	text-align: center;
 	visibility: hidden;
 	position: absolute;
+	padding-top: 10px;
 	z-index: 6;
 }
 
@@ -795,15 +800,19 @@ div#resume_info {
 
 /***********************Tic Tac Toe Button For the Web Link**********************************************/
 a div#tic_tac_toe_btn {
-	height: 60px;
-	width: 520px;
-	border-radius: 25px;
-	opacity: .4;
-	background-color: transparent;
-	margin-left: -290px;
-	margin-top: 235px;
+	height: 40px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: .6;
+	background-color: #FFFFFF;
+	margin-left: -320px;
+	margin-top: 178px;
+	font-family: "Comic Sans";
+	font-size: 1.5em;
+	text-align: center;
 	visibility: hidden;
 	position: absolute;
+	padding-top: 10px;
 	z-index: 6;
 }
 
@@ -813,33 +822,42 @@ a div#tic_tac_toe_btn:hover {
 
 /*************************School Button For the Web Link****************************************************/
 a div#school_btn {
-	height: 60px;
-	width: 140px;
-	border-radius: 25px;
-	opacity: .4;
-	background-color: transparent;
-	margin-left: -100px;
-	margin-top: 380px;
+	height: 40px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: .6;
+	background-color: #6685A3;
+	margin-left: -320px;
+	margin-top: 178px;
+	font-family: "Comic Sans";
+	font-size: 1.5em;
+	text-align: center;
 	visibility: hidden;
 	position: absolute;
+	padding-top: 10px;
 	z-index: 6;
 }
 
 a div#school_btn:hover {
-	background-color: white;
+	background-color: #FFFFFF;
 }
 
 /*************************Final Project For the Web Link*******************************************************/
 a div#final_project_btn {
 	height: 40px;
-	width: 250px;
-	border-radius: 25px;
-	opacity: .4;
-	background-color: transparent;
-	margin-left: -120px;
-	margin-top: 240px;
+	width: 300px;
+	border-radius: 10px;
+	opacity: .6;
+	background-color: #FFFFFF;
+	margin-left: -320px;
+	margin-top: 178px;
+	font-family: "Comic Sans";
+	font-size: 1.5em;
+	text-align: center;
 	visibility: hidden;
 	position: absolute;
+	padding-top: 10px;
+	z-index: 6;
 	z-index: 6;
 }
 
