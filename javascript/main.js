@@ -410,6 +410,8 @@ scroll_state = false;
 info_state = false;
 box_id = "";
 program_id = "";
+c_plus_plus_images = ["flight.png", "bank.png", "car.png", "pong.png"];
+image_count = 0;
 
 
 //-----------------------Function For the Whole Page------------------------------------------------------------
